@@ -37,8 +37,8 @@ project_structure/
 
 ## Usage
 
-1. Right-click on a folder within a Dart/Flutter project in the VS Code Explorer.
-2. Select the `Create Feature` option from the context menu.
+1. Right-click on any folder within a Dart/Flutter project in the VS Code Explorer.
+2. Select the `Flutter: Create New Feature` option from the context menu.
 3. Input the name of the feature (e.g., "auth").
 4. The extension will create the folder structure for that feature under the folder you selected.
 
@@ -49,11 +49,5 @@ You can install this extension from the VS Code marketplace or by downloading it
 ## Known Issues
 
 - The extension doesn't currently support file templates (only folder creation).
-
-## Release Notes
-
-### 0.0.1
-
-Initial release of Flutter Clean Architecture extension.
 
 ---

@@ -4,7 +4,7 @@
 	"publisher": "RansfordOwusu-Ansah",
 	"license": "MIT",
 	"description": "This is an extension for flutter that enables you to create create a template for a feature in using the clean architecture standards",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/rans-rans/clean_architecture_feature_create"
@@ -17,7 +17,8 @@
 		"Snippets"
 	],
 	"activationEvents": [
-		"onCommand:flutter-ca-extension.create_fca_feature"
+		"onCommand:flutter-ca-extension.create_fca_feature",
+		"workspaceContains:pubspec.yaml"
 	],
 	"main": "./extension.js",
 	"contributes": {
@@ -31,7 +32,7 @@
 			"explorer/context": [
 				{
 					"command": "create_fca_feature.create_feature",
-					"group": "navigation"
+					"group": "2_modification"
 				}
 			]
 		}
