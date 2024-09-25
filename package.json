@@ -2,6 +2,7 @@
 	"name": "create-fca-feature",
 	"displayName": "New Clean architecture Feature",
 	"publisher": "Ransford Owusu-Ansah",
+	"license":"MIT",
 	"description": "This is an extension for flutter that enables you to create create a template for a feature in using the clean architecture standards",
 	"version": "0.0.1",
 	"repository": {
